@@ -22,6 +22,7 @@ VCmpTool支持：
  * **播放控制**：支持通过键盘和鼠标进行播放控制，包括暂停、快进、快退等功能。
  * **循环播放**：支持设置循环播放的次数。
  * **自动移动分割线**：支持分割线自动移动，方便用户进行连续对比。
+ * **添加了AV1解码支持**
 ## 界面预览
 
 <img width="552" height="452" alt="image" src="https://github.com/user-attachments/assets/3c774614-e668-419e-aa87-6dcbe94e834b" />
