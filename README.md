@@ -1,2 +1,53 @@
-# Vcmptool_GUI
-视频主观质量对比工具(Visual comparision tool based on ffplay)的图形化界面
+# VCmpTool_GUI
+
+一个基于 PyQt5 的图形用户界面 (GUI) 应用程序，用于简化[VCmpTool](https://blog.csdn.net/lrzkd/article/details/78809659)的启动过程。
+VCmpTool 是一个直观的视频对比播放工具，但其命令行参数可能对部分用户不够友好。本启动器旨在提供一个直观易用的界面，让用户可以方便地选择视频文件、设置播放参数并启动 VCmpTool。
+
+## 功能特点
+
+*   **图形化界面**: 提供直观的文件选择和参数设置界面。
+*   **文件浏览**: 内置文件对话框，方便选择视频文件。
+*   **参数配置**:
+    *   设置视频循环播放次数 (`-loop` 参数)。
+    *   启用/禁用自动移动分割线 (`-m` 参数)。
+*   **进程控制**: 可以启动和强制终止 VCmpTool 进程。
+*   **状态显示**: 实时显示应用程序的运行状态。
+*   **内置帮助**: 提供 VCmpTool 播放时可用控制键的快速参考。
+
+## 界面预览
+
+<img width="552" height="452" alt="image" src="https://github.com/user-attachments/assets/3c774614-e668-419e-aa87-6dcbe94e834b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fb8bbb9c-b0a7-45d8-9167-31eebaad33dc" />
+
+
+## 快速开始
+
+### 下载
+
+请从 [Releases](https://github.com/maxzrb/VCmpTool_GUI/releases) 页面下载适用于 Windows 的最新版本。
+
+
+### **使用**:
+    *   点击 "浏览" 按钮选择要对比的两个视频文件。
+    *   (可选) 设置循环次数。
+    *   (可选) 勾选 "自动移动分割线"。
+    *   点击 "▶️ 启动视频对比" 按钮启动 VCmpTool。
+    *   如果需要提前结束或**未出现预览画面**，可以点击 "⏹️ 结束进程" 按钮。
+
+### 播放控制键 (来自 VCmpTool)
+
+启动 VCmpTool 后，可以使用以下快捷键进行控制：
+
+| 按键 | 功能 |
+| :--- | :--- |
+| `q`, `ESC` | 退出 |
+| `f` | 全屏 |
+| `p`, `space` | 暂停 |
+| `s` | 播放下一帧 |
+| `F1` | 左边的画面播放到下一帧 |
+| `F2` | 右边的画面播放到下一帧 |
+| `上键` | 快进60秒 |
+| `下键` | 回退60秒(源程序方向键控制不完善，容易错位，慎用） |
+| `鼠标左键单击` | 移动分割线到鼠标位置 |
+| `按住鼠标左键` | 移动分割线 |
+| `鼠标滚轮` | 改变画面大小 |
