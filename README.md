@@ -60,3 +60,6 @@ VCmpTool支持：
 | `鼠标左键单击` | 移动分割线到鼠标位置 |
 | `按住鼠标左键` | 移动分割线 |
 | `鼠标滚轮` | 改变画面大小 |
+
+
+感谢原博主CSDN@[ITRonnie](https://blog.csdn.net/lrzkd/article/details/78809659)的作品
